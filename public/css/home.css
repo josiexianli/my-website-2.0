@@ -1,11 +1,63 @@
+
+html, body {
+    height: 100%;
+}
+
+#c {
+    position: absolute;
+}
+
+#skills {
+}
+
+#contact {
+}
+
+#intro {
+    height: 100%;
+    background: black;
+}
+
 #header .me-img {
     border-radius: 200px;
 }
 
 #header .img-container {
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 10%;
-    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 15%;
+    display: block;
+    position: relative;
 
 }
+
+#header {
+    height: 100%;
+    display: block;
+}
+
+.header-name {
+    margin-top: 20px;
+    color: #ffffff;
+    transform: rotate(-10deg);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.title {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+}
+
+#header .fa {
+    margin: auto;
+    color: white;
+}
+
+
+

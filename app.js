@@ -1,6 +1,8 @@
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
+const favicon = require('serve-favicon');
+
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const indexRouter = require('./routes/index');
@@ -12,7 +14,9 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use('/node_modules/bootstrap', express.static(__dirname + '/node_modules/bootstrap'));
+app.use('/node_modules/font-awesome', express.static(__dirname + '/node_modules/font-awesome'));
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(cookieParser());
