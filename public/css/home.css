@@ -1,49 +1,11 @@
-.container {
-    width: 100%;
-}
-
-#c {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-body, html {
-    height: 100%;
-}
-
-#header {
-    height: 100%;
-    background: black;
-    position:relative;
-}
-
-#header .header-title {
-    color: #FF9000;
+#header .me-img {
+    border-radius: 200px;
 }
 
 #header .img-container {
     max-width: 200px;
     max-height: 200px;
     margin-top: 10%;
-
-}
-
-#header .me-img {
-    border-radius: 200px;
-}
-
-#intro {
-    height: 100%;
-    width: 100%;
-}
-
-#intro-text {
-    color: white;
-    align-content: left;
-    width: 80%;
-}
-
-#header .header-content {
+    position: absolute;
 
 }
