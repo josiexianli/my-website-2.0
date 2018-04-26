@@ -7,17 +7,6 @@ html, body {
     position: absolute;
 }
 
-#skills {
-}
-
-#contact {
-}
-
-#intro {
-    height: 100%;
-    background: black;
-}
-
 #header .me-img {
     border-radius: 200px;
 }
@@ -59,5 +48,43 @@ html, body {
     color: white;
 }
 
+/*intro==================================*/
 
+#intro {
+    background: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-title {
+    color: #FF9000;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#intro-text {
+    color: white;
+    align-content: left;
+    width: 60%;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 5%;
+}
+
+#intro-download {
+    align-content: left;
+    margin-bottom: 10%;
+}
+
+#intro-content {
+    margin-bottom: 10%;
+}
+
+/*=============================================*/
+
+#skills {
+    background: black;
+}
+
+#contact {
+
+}
 
