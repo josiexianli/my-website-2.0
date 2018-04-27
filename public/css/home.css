@@ -56,7 +56,7 @@ html, body {
     padding-bottom: 10%;
 }
 
-.intro-title {
+#intro .intro-title {
     color: #FF9000;
     font-family: 'Kaushan Script', cursive;
 }
@@ -64,7 +64,7 @@ html, body {
 #intro-text {
     color: white;
     align-content: left;
-    width: 60%;
+    width: 80%;
     font-family: 'Space Mono', monospace;
     margin-bottom: 5%;
 }
@@ -76,6 +76,10 @@ html, body {
 
 #intro-content {
     margin-bottom: 10%;
+}
+
+.wow {
+    visibility: hidden;
 }
 
 /*=============================================*/

@@ -6,7 +6,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var chinese = "JOSIEXIANLI";
+var chinese = "JOSIEXIANLI娴李";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
