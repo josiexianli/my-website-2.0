@@ -114,8 +114,21 @@ html, body {
     margin-bottom: 20px;
 }
 
+/*===================================*/
+#services {
+    background: black;
+    height: 80%;
+}
+
+#services h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #FF9000;
+}
+
+/*===================================*/
 #contact {
     background: black;
+    padding-bottom: 5%;
 }
 
 #contact .contact-title {
@@ -124,6 +137,8 @@ html, body {
 }
 
 #contact .contact-content {
+    margin-top: 20px;
     color: #ffffff;
     font-family: 'Space Mono', monospace;
+    font-size: 15px;
 }
