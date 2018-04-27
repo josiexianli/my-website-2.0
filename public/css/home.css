@@ -124,6 +124,15 @@ html, body {
     color: #FF9000;
 }
 
+#services a {
+    font-family: 'Space Mono', monospace;
+    color: #FF9000;
+}
+
+#services a:hover {
+    color: #FFC300;
+}
+
 #services .service-des, .service-extra {
     font-family: 'Space Mono', monospace;
     color: #FFC300;

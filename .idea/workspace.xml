@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d00229-bfb5-40cf-88ef-213fced7c425" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/services/android-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/services/architecture-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/services/db-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/services/web-service.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home/components/services.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/components/services.ejs" afterDir="false" />
     </list>
@@ -61,8 +56,8 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+            <state relative-caret-position="-70">
+              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
             </state>
           </provider>
         </entry>
@@ -79,8 +74,8 @@
       <file leaf-file-name="services.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home/components/services.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="495">
+              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -292,10 +287,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/img/services" />
       <recent name="$PROJECT_DIR$/public/img/ide" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -330,17 +325,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44495000" />
+    <option name="totallyTimeSpent" value="45224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15433404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15433404" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28242424" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28242424" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -721,15 +715,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home/components/services.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="495">
+          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        <state relative-caret-position="-70">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
         </state>
       </provider>
     </entry>
