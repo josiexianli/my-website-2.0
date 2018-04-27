@@ -113,3 +113,17 @@ html, body {
     font-family: 'Kaushan Script', cursive;
     margin-bottom: 20px;
 }
+
+#contact {
+    background: black;
+}
+
+#contact .contact-title {
+    color: #FF9000;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#contact .contact-content {
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+}
