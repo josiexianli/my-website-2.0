@@ -117,12 +117,34 @@ html, body {
 /*===================================*/
 #services {
     background: black;
-    height: 80%;
 }
 
 #services h3 {
     font-family: 'Kaushan Script', cursive;
     color: #FF9000;
+}
+
+#services .service-des, .service-extra {
+    font-family: 'Space Mono', monospace;
+    color: #FFC300;
+
+}
+
+#services .service-extra {
+    font-size: 15px;
+    color: #FF9000;
+}
+
+#services .service-img-container {
+    padding: 15px 15px;
+}
+
+#services .service-divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+
+    background: linear-gradient(to right, #FF9000, #ffffff);
 }
 
 /*===================================*/
@@ -142,3 +164,5 @@ html, body {
     font-family: 'Space Mono', monospace;
     font-size: 15px;
 }
+
+
