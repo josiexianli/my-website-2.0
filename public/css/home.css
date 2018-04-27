@@ -86,9 +86,30 @@ html, body {
 
 #skills {
     background: black;
+    padding-bottom: 5%;
 }
 
 #contact {
 
 }
 
+#skills .skill-holder {
+    margin-top: 10px;
+    background-color: #FF9000;
+}
+
+#skills .skill-holder h5 {
+    font-family: 'Space Mono', monospace;
+}
+
+#skills .skill-tail {
+    margin-top: 10px;
+    background: url("/img/tail.png");
+}
+
+#skills .skills-title {
+    color: #FF9000;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 20px;
+}
