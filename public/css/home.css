@@ -206,3 +206,17 @@ footer .footer-divider {
     background: linear-gradient(to right, #FF9000, #ffffff);
 }
 
+@media only screen and (max-width: 767px) {
+    #skills .skill-tail {
+        display: none;
+    }
+    #intro .img-container {
+        padding: 15%;
+    }
+    #skills .skill-holder h5 {
+        font-size: 12px;
+    }
+    #services .service-img-container {
+        padding: 15% 15%;
+    }
+}
