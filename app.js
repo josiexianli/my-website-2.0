@@ -10,6 +10,13 @@ const usersRouter = require('./routes/users');
 const bodyParser = require('body-parser');
 const app = express();
 
+app.get('*', (req, res, next) => {
+    if (req.headers["x-forwarded-proto"] === "https") {
+        return next();
+    }
+    res.redirect("https://" + req.headers.host + req.url);
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
