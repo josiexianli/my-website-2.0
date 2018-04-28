@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d00229-bfb5-40cf-88ef-213fced7c425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/components/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/components/contact.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jlwordrain.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jlwordrain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jlwordrain.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/jlwordrain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -94,15 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/shared/head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -140,7 +141,6 @@
         <option value="$PROJECT_DIR$/views/home/components/skills.js" />
         <option value="$PROJECT_DIR$/views/home/components/head.ejs" />
         <option value="$PROJECT_DIR$/views/shared/nav.ejs" />
-        <option value="$PROJECT_DIR$/public/js/jlwordrain.js" />
         <option value="$PROJECT_DIR$/views/shared/head.ejs" />
         <option value="$PROJECT_DIR$/views/home/components/intro.ejs" />
         <option value="$PROJECT_DIR$/views/home/components/skills.ejs" />
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/public/css/home.css" />
         <option value="$PROJECT_DIR$/views/home/components/contact.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/js/jlwordrain.js" />
       </list>
     </option>
   </component>
@@ -194,7 +195,7 @@
               <item name="Version2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Version2" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Version2" type="b2602c69:ProjectViewProjectNode" />
@@ -283,23 +284,23 @@
       <updated>1524677465893</updated>
       <workItem from="1524677467991" duration="46906000" />
       <workItem from="1524803086752" duration="2510000" />
-      <workItem from="1524848062073" duration="15142000" />
+      <workItem from="1524848062073" duration="15556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64558000" />
+    <option name="totallyTimeSpent" value="64972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1019" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21943888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21943888" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24965326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24965326" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -499,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jlwordrain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/home/components/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -588,8 +582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jlwordrain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>

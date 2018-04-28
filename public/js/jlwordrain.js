@@ -6,11 +6,11 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var chinese = "JOSIEXIANLI娴李";
+var chinese = "安卓ANDROIDWEBDATABASESYSTEM网页设计师数据库系统架构娴李";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
-var font_size = 10;
+var font_size = 12;
 var columns = c.width / font_size; //number of columns for the rain
 //an array of drops - one per column
 var drops = [];
