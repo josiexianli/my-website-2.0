@@ -43,10 +43,7 @@ html, body {
     font-size: 20px;
 }
 
-#header .fa {
-    margin: auto;
-    color: white;
-}
+
 
 /*intro==================================*/
 
@@ -184,6 +181,12 @@ html, body {
 
 #contact a.contact-link:hover {
     color: #FFC300;
+}
+
+
+#contact .fa {
+    margin-left: 0;
+    color: white;
 }
 
 footer p {
