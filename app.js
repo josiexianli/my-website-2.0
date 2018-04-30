@@ -10,18 +10,19 @@ const usersRouter = require('./routes/users');
 const bodyParser = require('body-parser');
 const app = express();
 
-app.get('*', (req, res, next) => {
-    if (req.headers["x-forwarded-proto"] === "https") {
-        return next();
-    }
-    res.redirect("https://" + req.headers.host + req.url);
-});
+// app.get('*', (req, res, next) => {
+//     if (req.headers["x-forwarded-proto"] === "https") {
+//         return next();
+//     }
+//     res.redirect("https://" + req.headers.host + req.url);
+// });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use('/node_modules/bootstrap', express.static(__dirname + '/node_modules/bootstrap'));
 app.use('/node_modules/font-awesome', express.static(__dirname + '/node_modules/font-awesome'));
+app.use('/node_modules/jquery', express.static(__dirname + '/node_modules/jquery'));
 app.use('/node_modules/animate.css', express.static(__dirname + '/node_modules/animate.css'));
 app.use('/node_modules/wowjs', express.static(__dirname + '/node_modules/wowjs'));
 app.use(bodyParser.urlencoded({extended: false}));

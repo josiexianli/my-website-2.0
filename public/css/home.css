@@ -43,8 +43,6 @@ html, body {
     font-size: 20px;
 }
 
-
-
 /*intro==================================*/
 
 #intro {
@@ -141,8 +139,9 @@ html, body {
     color: #FF9000;
 }
 
-#services .service-img-container {
+#services .card {
     padding: 15px 15px;
+    background-color: transparent;
 }
 
 #services .service-divider {
@@ -151,6 +150,29 @@ html, body {
     height: 1px;
 
     background: linear-gradient(to right, #FF9000, #ffffff);
+}
+
+#services .service-img {
+    position: relative;
+}
+
+#services .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+#services .img-overlay:hover {
+    opacity: 1;
+    z-index: 1;
 }
 
 /*===================================*/
@@ -183,7 +205,6 @@ html, body {
     color: #FFC300;
 }
 
-
 #contact .fa {
     margin-left: 0;
     color: white;
@@ -210,12 +231,15 @@ footer .footer-divider {
     #skills .skill-tail {
         display: none;
     }
+
     #intro .img-container {
         padding: 15%;
     }
+
     #skills .skill-holder h5 {
         font-size: 12px;
     }
+
     #services .service-img-container {
         padding: 15% 15%;
     }
