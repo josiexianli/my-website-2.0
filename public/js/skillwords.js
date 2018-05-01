@@ -9,7 +9,7 @@ function doSkillWordRain(index, words) {
     c.height = canvas.height();
 
     var font_size = 10;
-    var columns = c.width / font_size; //number of columns for the rain
+    var columns = c.height / font_size; //number of columns for the rain
 //an array of drops - one per column
     var drops = [];
 //x below is the x coordinate
