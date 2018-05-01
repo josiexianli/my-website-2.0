@@ -1,9 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+
+const skillConn = require('../modules/skills/skill.conn');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('home/page_root', { title: 'Xian Li' });
+router.get('/', function (req, res, next) {
+    res.render('home/page_root', {
+        title: 'Xian Li',
+        skillList: skillConn.getSkillList()
+    });
 });
 
 module.exports = router;

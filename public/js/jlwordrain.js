@@ -1,9 +1,10 @@
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
+let canvas = $('#c');
 
 //making the canvas full screen
-c.height = window.innerHeight;
-c.width = window.innerWidth;
+c.height = canvas.height();
+c.width = canvas.width();
 
 //chinese characters - taken from the unicode charset
 var chinese = "安卓ANDROIDWEBDATABASESYSTEM网页设计师数据库系统架构娴李";
