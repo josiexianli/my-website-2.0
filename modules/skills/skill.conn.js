@@ -3,19 +3,19 @@ const getSkillList = () => {
     return [
         {
             name: 'jQuery',
-            score: 3
+            score: 5
         },
         {
             name: 'Angular 5',
-            score: 5
+            score: 4
         },
         {
             name: 'Android',
-            score: 5
+            score: 4
         },
         {
             name: 'Node.js',
-            score: 8
+            score: 7
         },
         {
             name: 'C#',
@@ -23,15 +23,15 @@ const getSkillList = () => {
         },
         {
             name: 'SQL',
-            score: 7
+            score: 6
         },
         {
             name: 'JavaScript',
-            score: 8
+            score: 7
         },
         {
             name: 'Java',
-            score: 9
+            score: 8
         }
     ];
 };

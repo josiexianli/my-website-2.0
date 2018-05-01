@@ -8,7 +8,7 @@ function doSkillWordRain(index, words) {
     c.width = canvas.width();
     c.height = canvas.height();
 
-    var font_size = 8;
+    var font_size = 10;
     var columns = c.width / font_size; //number of columns for the rain
 //an array of drops - one per column
     var drops = [];
@@ -16,6 +16,7 @@ function doSkillWordRain(index, words) {
 //1 = y co-ordinate of the drop(same for every drop initially)
     for (var x = 0; x < columns; x++)
         drops[x] = 1;
+
 //drawing the characters
     function draw() {
         //Black BG for the canvas
@@ -34,7 +35,7 @@ function doSkillWordRain(index, words) {
 
             //sending the drop back to the top randomly after it has crossed the screen
             //adding a randomness to the reset to make the drops scattered on the Y axis
-            if (drops[i] * font_size > c.width && Math.random() > 0.975)
+            if (drops[i] * font_size > c.width && Math.random() > 0.875)
                 drops[i] = 0;
 
             //incrementing Y coordinate
@@ -42,7 +43,7 @@ function doSkillWordRain(index, words) {
         }
     }
 
-    setInterval(draw, 33);
+    setInterval(draw, 40);
 }
 
 (function () {

@@ -99,6 +99,7 @@ canvas {
 
 #skills .skill-holder h5 {
     font-family: 'Space Mono', monospace;
+    color: white;
 }
 
 #skills .skill-tail {
@@ -115,7 +116,7 @@ canvas {
 }
 
 #skills .skill-words {
-    margin-left: -45px;
+    margin-left: -85px;
     /*left: 0;*/
     position: absolute;
     width: 100%;
@@ -262,6 +263,7 @@ footer .footer-divider {
     #skills .skill-holder h5 {
         color: #FF9000;
         font-size: 12px;
+
     }
 
     #skills .skill-holder {

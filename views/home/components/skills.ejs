@@ -4,11 +4,11 @@
         <h3 class="skills-title wow fadeIn" data-wow-duration=".8s">Skills</h3>
         <% skillList.forEach((skill, index)=>{ %>
         <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay="<%= 0.2 * index %>s">
-            <div class="col-<%= skill.score %> skill-holder">
-                <h5><%= skill.name  %></h5></div>
+            <div class="col-<%= skill.score %> col-md-3 col-lg-3 skill-holder">
+                <h5><%= skill.name %></h5></div>
             <!--+ ' - < ' + Math.floor(skill.score / 12 * 100) + '% >'-->
 
-            <div class="col-3 skill-tail">
+            <div class="col-md-<%= skill.score %> col-lg-<%= skill.score %> skill-tail">
                 <canvas id="sc-<%= index %>" class="skill-words"></canvas>
             </div>
         </div>
