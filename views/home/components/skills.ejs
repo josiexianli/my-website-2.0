@@ -2,46 +2,17 @@
 
     <div class="container">
         <h3 class="skills-title wow fadeIn" data-wow-duration=".8s">Skills</h3>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".2s">
-            <div class="col-3 skill-holder"><h5>jQuery</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".2s">
-            <div class="col-5 skill-holder"><h5>Angular 5</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".4s">
-            <div class="col-5 skill-holder"><h5>Android</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
-            <div class="col-8 skill-holder"><h5>Node.js</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
+        <% skillList.forEach((skill, index)=>{ %>
+        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay="<%= 0.2 * index %>s">
+            <div class="col-<%= skill.score %> col-md-3 col-lg-3 skill-holder">
+                <h5><%= skill.name %></h5></div>
+            <!--+ ' - < ' + Math.floor(skill.score / 12 * 100) + '% >'-->
 
+            <div class="col-md-<%= skill.score %> col-lg-<%= skill.score %> skill-tail">
+                <canvas id="sc-<%= index %>" class="skill-words"></canvas>
+            </div>
         </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".8s">
-            <div class="col-6 skill-holder"><h5>C#</h5></div>
-            <div class="col-3 skill-tail"></div>
+        <% }); %>
 
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay="1s">
-            <div class="col-7 skill-holder"><h5>SQL</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay="1.2s">
-            <div class="col-8 skill-holder"><h5>JavaScript</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
-        <div class="row wow fadeInLeft" data-wow-duration=".6s" data-wow-delay="1.4s">
-            <div class="col-9 skill-holder"><h5>Java</h5></div>
-            <div class="col-3 skill-tail">
-            </div>
-        </div>
     </div>
 </section>
