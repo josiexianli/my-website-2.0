@@ -102,6 +102,10 @@ html, body {
     background: url("/img/tail.png");
 }
 
+#skills .skill-tail p {
+    font-size: 9px;
+}
+
 #skills .skills-title {
     color: #FF9000;
     font-size: 30px;
@@ -235,7 +239,9 @@ footer .footer-divider {
 
 @media only screen and (max-width: 767px) {
     #skills .skill-tail {
+
         display: none;
+
     }
 
     #intro .img-container {
@@ -243,7 +249,18 @@ footer .footer-divider {
     }
 
     #skills .skill-holder h5 {
+        color: #FF9000;
         font-size: 12px;
+    }
+
+    #skills .skill-holder {
+        margin-left: 30px;
+        border: 3px solid transparent;
+        border-image-source: linear-gradient(to bottom right, #FF9000, #00001a);
+        border-image-slice: 1;
+        border-image-width: 1;
+
+        background: transparent;
     }
 
     #services .service-img-container {
